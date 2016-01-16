@@ -73,3 +73,5 @@ Very simple module to handle redis cache key/value with promises
       .catch(function (err) {
         throw err
       })
+
+#Version 0.1.0

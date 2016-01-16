@@ -3,13 +3,14 @@ Very simple module to handle Redis cache key/value with promises
 
 ## Methods
     
- configure(Object): Set the configuration parameters to connect with Redis, Return the instance of the `redis-cache-promise` 
+ `configure(Object)`: Set the configuration parameters to connect with Redis, Return the instance of the `redis-cache-promise` 
+ 
    - host(string): Host name or ip of the redis server
    - (OPTIONAL) db(int): Database number, default value 0 
    - (OPTIONAL) expiry(int): Default value of the cache in seconds, default value : 86400
    - (OPTIONAL) password(string): Password of the Redis server if "requirepass" is set on the server
 
- Promise connect(): Connect with Redis, return a promise.
+ `Promise connect()`: Connect with Redis, return a promise.
 
 # Example
 
